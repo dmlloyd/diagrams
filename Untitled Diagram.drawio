@@ -56,16 +56,30 @@
           <mxGeometry x="510" y="120" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oSou-K76hDV_5S_J-PpW-64" value="Dynamic module class loader for &lt;font face=&quot;Verdana&quot;&gt;blah.baz&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;align=left;spacingLeft=6;" vertex="1" parent="1">
-          <mxGeometry x="490" y="200" width="140" height="150" as="geometry" />
+          <mxGeometry x="810" y="30" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="oSou-K76hDV_5S_J-PpW-65" value="Layer" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;align=left;verticalAlign=top;fillColor=none;spacingLeft=6;" vertex="1" parent="1">
-          <mxGeometry x="500" y="255" width="120" height="85" as="geometry" />
+          <mxGeometry x="820" y="85" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oSou-K76hDV_5S_J-PpW-66" target="oSou-K76hDV_5S_J-PpW-68">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oSou-K76hDV_5S_J-PpW-66" value="&lt;font&gt;blah.baz&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#cce5ff;strokeColor=#36393d;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="510" y="290" width="100" height="40" as="geometry" />
+          <mxGeometry x="830" y="120" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oSou-K76hDV_5S_J-PpW-67" value="Dynamic module class loader for &lt;font face=&quot;Verdana&quot;&gt;plain.jar&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;align=left;spacingLeft=6;" vertex="1" parent="1">
           <mxGeometry x="650" y="30" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oSou-K76hDV_5S_J-PpW-68" target="oSou-K76hDV_5S_J-PpW-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oSou-K76hDV_5S_J-PpW-68" target="oSou-K76hDV_5S_J-PpW-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="150" />
+              <mxPoint x="640" y="220" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="oSou-K76hDV_5S_J-PpW-68" value="&lt;font&gt;&amp;lt;unnamed&amp;gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#fad9d5;strokeColor=#ae4132;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="670" y="120" width="100" height="40" as="geometry" />
