@@ -1,9 +1,75 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9">
   <diagram name="Page-1" id="qP_2tnTI7hZG0YGUCF7K">
-    <mxGraphModel>
+    <mxGraphModel dx="1129" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oSou-K76hDV_5S_J-PpW-50" value="Platform class loader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="210" y="30" width="120" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-42" value="Boot class loader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="120" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-53" value="Boot&lt;div&gt;layer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;align=left;verticalAlign=top;fillColor=none;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="450" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-43" value="&lt;font&gt;java.base&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#cce5ff;strokeColor=#36393d;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="oSou-K76hDV_5S_J-PpW-44" target="oSou-K76hDV_5S_J-PpW-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-44" value="java.logging" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#cce5ff;strokeColor=#36393d;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-47" value="etc." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontFamily=Verdana;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-51" value="&lt;font&gt;java.sql&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#cce5ff;strokeColor=#36393d;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-52" value="etc." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontFamily=Verdana;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-54" value="Application class loader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="120" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-55" value="org.xx.modules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontFamily=Verdana;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-56" value="io.sr.common.*" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontFamily=Verdana;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="350" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-57" value="o.j.logmanager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontFamily=Verdana;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="350" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-58" value="o.j.logging" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontFamily=Verdana;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-60" value="Dynamic module class loader for &lt;font face=&quot;Verdana&quot;&gt;foo.bar&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="490" y="30" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-61" value="Layer" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;align=left;verticalAlign=top;fillColor=none;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="500" y="85" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-63" value="&lt;font&gt;foo.bar&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#cce5ff;strokeColor=#36393d;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="510" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-64" value="Dynamic module class loader for &lt;font face=&quot;Verdana&quot;&gt;blah.baz&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-65" value="Layer" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;align=left;verticalAlign=top;fillColor=none;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="500" y="255" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-66" value="&lt;font&gt;blah.baz&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#cce5ff;strokeColor=#36393d;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="510" y="290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-67" value="Dynamic module class loader for &lt;font face=&quot;Verdana&quot;&gt;plain.jar&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="650" y="30" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oSou-K76hDV_5S_J-PpW-68" value="&lt;font&gt;&amp;lt;unnamed&amp;gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#fad9d5;strokeColor=#ae4132;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="670" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
