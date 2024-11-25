@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9">
-  <diagram name="Page-1" id="0tlzPtYyGlVCA5kzO2vZ">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9" pages="2">
+  <diagram name="Scheduling" id="0tlzPtYyGlVCA5kzO2vZ">
     <mxGraphModel dx="1129" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -147,6 +147,26 @@
         </mxCell>
         <mxCell id="18TU8dsRocirDvy_gIQX-54" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="360" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RyLQmi-UeGU3_qhK333G" name="I/O">
+    <mxGraphModel dx="1242" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p9Mk_gvXvdi3bmlE2TU1-1" value="Channel" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="220" y="220" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p9Mk_gvXvdi3bmlE2TU1-7" value="fd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="220" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p9Mk_gvXvdi3bmlE2TU1-8" value="buffer(s)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="240" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p9Mk_gvXvdi3bmlE2TU1-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="260" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
