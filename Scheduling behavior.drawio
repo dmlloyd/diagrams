@@ -1,9 +1,150 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9">
   <diagram name="Page-1" id="0tlzPtYyGlVCA5kzO2vZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1380" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="18TU8dsRocirDvy_gIQX-34" value="Ready-but-unscheduled blocking VTs (in thread pool queue)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="760" width="550" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-1" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="100" y="420" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-2" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="100" y="470" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-3" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="100" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-4" value="I/O Thread 1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="80" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-5" value="I/O Thread 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="210" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-6" value="I/O Thread 3" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="340" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-7" value="Pool Thread 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-8" value="Pool Thread 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="610" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-9" value="Pool Thread &lt;i&gt;N&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="780" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="609.5" as="sourcePoint" />
+            <mxPoint x="780" y="609.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-13" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="230" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-14" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="230" y="470" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-15" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="230" y="420" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-16" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="230" y="370" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-17" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-18" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="500" y="530" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-20" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="630" y="530" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-21" value="(idle)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="18TU8dsRocirDvy_gIQX-22" target="18TU8dsRocirDvy_gIQX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="18TU8dsRocirDvy_gIQX-22" target="18TU8dsRocirDvy_gIQX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="18TU8dsRocirDvy_gIQX-22" target="18TU8dsRocirDvy_gIQX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="18TU8dsRocirDvy_gIQX-22" target="18TU8dsRocirDvy_gIQX-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-22" value="Thread pool executor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="570" y="680" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-26" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="530" y="145" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-27" value="Parked VTs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="550" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-28" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="620" y="145" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-29" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="710" y="145" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-30" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="800" y="145" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-31" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="890" y="145" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-32" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="980" y="145" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-33" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="440" y="790" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-36" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="530" y="790" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-37" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="620" y="790" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-39" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="710" y="790" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-40" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="800" y="790" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-41" value="VT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="890" y="790" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-43" value="Ready queue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="240" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-44" value="Ready queue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="240" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-46" value="Ready queue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-47" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Scheduling behaviors&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Any VT can be moved to/from any I/O thread or thread pool thread&lt;/li&gt;&lt;li&gt;Move to thread pool when performing long computations&lt;/li&gt;&lt;li&gt;Move to I/O when blocked on I/O operation&lt;/li&gt;&lt;li&gt;Periodic rebalancing is possible&lt;/li&gt;&lt;li&gt;I/O threads are performing I/O using async primitives (for good OSes) or non-blocking I/O multiplexing (for crappy OSes)&lt;/li&gt;&lt;li&gt;User I/O is normally &lt;b&gt;blocking&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Async I/O with ready-callback is also doable but higher overhead&lt;/li&gt;&lt;li&gt;Blocking I/O with ready-callback is doable but even higher overhead&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="11" y="11" width="490" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-48" value="Scheduled pool thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="920" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="18TU8dsRocirDvy_gIQX-50" target="18TU8dsRocirDvy_gIQX-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-50" value="VT delay task" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="940" y="530" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="18TU8dsRocirDvy_gIQX-52" target="18TU8dsRocirDvy_gIQX-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18TU8dsRocirDvy_gIQX-52" value="VT delay task" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="940" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
